@@ -3,6 +3,9 @@
 Cloning Instagram with Python Django and React
 
 
+
+
+
 ## 1. cookiecutter settings
 #### to initialize python3 virtual env and cookiecutter
 ```
