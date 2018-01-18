@@ -5,7 +5,7 @@ class TimeStampedModel(models.Model):
 
     """ TimeStampedModel """
 
-    created_at = models.DateTimeField(auto_now_add=True) 
+    created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
     class Meta:
@@ -19,10 +19,17 @@ class Image(TimeStampedModel):
     file = models.ImageField()
     location = models.CharField(max_length=140)
     caption = models.TextField()
-    creator = models.ForeignKey(user_models.User, null=True)
+    creator = models.ForeignKey(user_models.User, null=True, related_name='images')
+
+    @property
+    def like_count(self):
+        return self.likes.all().count()
 
     def __str__(self):
         return 'location: {} - Image Caption: {}'.format(self.location, self.caption)
+
+    class Meta:
+        ordering = ['-created_at']
 
 
 class Comment(TimeStampedModel):
@@ -47,4 +54,3 @@ class Like(TimeStampedModel):
     def __str__(self):
         return 'User: {} - Image Caption: {}'.format(self.creator.username, self.image.caption)
 
-    

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "927ffeb2ce8c4930ad46553bbf9c89058b5ad07282814f956fe3fc88b7604595"
+            "sha256": "18f83d1db10d76ca757c9a455fb32daf7879ecfcc577a8a1c33f2302ff196e55"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -288,10 +288,10 @@
         },
         "faker": {
             "hashes": [
-                "sha256:39d09909969617dea6088e64bb49d3f06373e585b9b20987252cbcd968ab423e",
-                "sha256:1472250ed27b5cd59c5bd3372f222bb22e641e645b874c8b5236845ff1f6ef4c"
+                "sha256:91c3e79db508f6e2b8ff3d3099fee0967c95ce02caa1f4028096641696336fc0",
+                "sha256:9da4c829d5592202a614d2db3c3e05d17684f5b590b7dbd6d7e70dc1053213a6"
             ],
-            "version": "==0.8.9"
+            "version": "==0.8.10"
         },
         "idna": {
             "hashes": [
@@ -586,6 +586,12 @@
                 "sha256:883ac416757eada6d3d07054ec7092ac21c7f35cb1d2cf82faf205637081f468"
             ],
             "version": "==0.8.0"
+        },
+        "rope": {
+            "hashes": [
+                "sha256:a09edfd2034fd50099a67822f9bd851fbd0f4e98d3b87519f6267b60e50d80d1"
+            ],
+            "version": "==0.10.7"
         },
         "simplegeneric": {
             "hashes": [
