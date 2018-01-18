@@ -4,6 +4,11 @@ from . import views
 
 urlpatterns = [
     url(
+        regex=r'^explore/$',
+        view=views.ExploreUsers.as_view(),
+        name='explore_users'
+    ),
+    url(
         regex=r'^$',
         view=views.UserListView.as_view(),
         name='list'

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68f2077b-0012-4d06-823f-d51da2ffb167" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/nomadgram/images/admin.py" afterPath="$PROJECT_DIR$/nomadgram/images/admin.py" />
-      <change beforePath="$PROJECT_DIR$/nomadgram/images/urls.py" afterPath="$PROJECT_DIR$/nomadgram/images/urls.py" />
-      <change beforePath="$PROJECT_DIR$/nomadgram/images/views.py" afterPath="$PROJECT_DIR$/nomadgram/images/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nomadgram/users/serializers.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/nomadgram/users/models.py" afterPath="$PROJECT_DIR$/nomadgram/users/models.py" />
+      <change beforePath="$PROJECT_DIR$/nomadgram/users/urls.py" afterPath="$PROJECT_DIR$/nomadgram/users/urls.py" />
+      <change beforePath="$PROJECT_DIR$/nomadgram/users/views.py" afterPath="$PROJECT_DIR$/nomadgram/users/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,11 +50,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nomadgram/users/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nomadgram/images/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+            <state relative-caret-position="135">
+              <caret line="23" column="77" lean-forward="true" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -60,9 +74,43 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nomadgram/users/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nomadgram/users/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>serializer</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -76,15 +124,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/nomadgram/users/views.py" />
         <option value="$PROJECT_DIR$/nomadgram/users/adapters.py" />
-        <option value="$PROJECT_DIR$/nomadgram/users/models.py" />
         <option value="$PROJECT_DIR$/nomadgram/users/admin.py" />
         <option value="$PROJECT_DIR$/nomadgram/images/models.py" />
         <option value="$PROJECT_DIR$/nomadgram/images/serializers.py" />
         <option value="$PROJECT_DIR$/nomadgram/images/urls.py" />
         <option value="$PROJECT_DIR$/nomadgram/images/admin.py" />
         <option value="$PROJECT_DIR$/nomadgram/images/views.py" />
+        <option value="$PROJECT_DIR$/nomadgram/users/urls.py" />
+        <option value="$PROJECT_DIR$/nomadgram/users/serializers.py" />
+        <option value="$PROJECT_DIR$/nomadgram/users/views.py" />
+        <option value="$PROJECT_DIR$/nomadgram/users/models.py" />
       </list>
     </option>
   </component>
@@ -124,6 +174,11 @@
             <path>
               <item name="nomadgram" type="b2602c69:ProjectViewProjectNode" />
               <item name="nomadgram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nomadgram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nomadgram" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nomadgram" type="b2602c69:ProjectViewProjectNode" />
@@ -440,7 +495,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -449,6 +504,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24821173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -458,7 +514,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -581,20 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nomadgram/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nomadgram/users/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -627,50 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nomadgram/users/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#24#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nomadgram/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nomadgram/images/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nomadgram/images/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nomadgram/images/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -687,10 +688,187 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nomadgram/templates/pages/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nomadgram/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nomadgram/users/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nomadgram/users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nomadgram/images/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nomadgram/images/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nomadgram/users/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/django.contrib.auth.models.AbstractUser">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>django.contrib.auth.models.AbstractUser</OriginalElement>
+          <nodes>
+            <node x="0.0" y="240.0">django.contrib.auth.base_user.AbstractBaseUser</node>
+            <node x="224.08333333333337" y="160.0">django.db.models.base.Model</node>
+            <node x="358.0" y="240.0">django.contrib.auth.models.PermissionsMixin</node>
+            <node x="188.08333333333337" y="320.0">django.contrib.auth.models.AbstractUser</node>
+            <node x="207.33333333333337" y="0.0">_collections_abc.Hashable</node>
+            <node x="321.58333333333337" y="80.0">django.db.models.base.ModelBase</node>
+            <node x="228.58333333333337" y="80.0">object</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="object" target="_collections_abc.Hashable">
+              <point x="0.0" y="-15.0" />
+              <point x="264.58333333333337" y="55.0" />
+              <point x="247.58333333333337" y="55.0" />
+              <point x="-40.25" y="15.0" />
+            </edge>
+            <edge source="django.contrib.auth.models.AbstractUser" target="django.contrib.auth.models.PermissionsMixin">
+              <point x="72.5" y="-15.0" />
+              <point x="405.58333333333337" y="295.0" />
+              <point x="515.0" y="295.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="django.contrib.auth.models.AbstractUser" target="django.contrib.auth.base_user.AbstractBaseUser">
+              <point x="-72.5" y="-15.0" />
+              <point x="260.58333333333337" y="295.0" />
+              <point x="169.0" y="295.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="django.db.models.base.Model" target="django.db.models.base.ModelBase">
+              <point x="72.66666666666669" y="-15.0" />
+              <point x="405.75000000000006" y="135.0" />
+              <point x="445.58333333333337" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="django.db.models.base.Model" target="object">
+              <point x="-72.66666666666669" y="-15.0" />
+              <point x="260.4166666666667" y="135.0" />
+              <point x="264.58333333333337" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="django.contrib.auth.models.PermissionsMixin" target="django.db.models.base.Model">
+              <point x="0.0" y="-15.0" />
+              <point x="515.0" y="215.0" />
+              <point x="387.58333333333337" y="215.0" />
+              <point x="54.5" y="15.0" />
+            </edge>
+            <edge source="django.db.models.base.Model" target="_collections_abc.Hashable">
+              <point x="0.0" y="-15.0" />
+              <point x="333.08333333333337" y="135.0" />
+              <point x="311.08333333333337" y="135.0" />
+              <point x="311.08333333333337" y="55.0" />
+              <point x="328.08333333333337" y="55.0" />
+              <point x="40.25" y="15.0" />
+            </edge>
+            <edge source="django.contrib.auth.base_user.AbstractBaseUser" target="django.db.models.base.Model">
+              <point x="0.0" y="-15.0" />
+              <point x="169.0" y="215.0" />
+              <point x="278.58333333333337" y="215.0" />
+              <point x="-54.5" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="336.0" y="175.0" />
+          <SelectedNodes>
+            <node>django.contrib.auth.models.AbstractUser</node>
+          </SelectedNodes>
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/nomadgram-9fk5sZuZ/lib/python3.6/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="333" column="15" lean-forward="false" selection-start-line="333" selection-start-column="9" selection-end-line="333" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nomadgram/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nomadgram/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nomadgram/images/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+        <state relative-caret-position="135">
+          <caret line="23" column="77" lean-forward="true" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
