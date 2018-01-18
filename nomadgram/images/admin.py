@@ -4,7 +4,7 @@ from . import models
 
 @admin.register(models.Image)
 class ImageAdmin(admin.ModelAdmin):
-    
+
     list_display_links = (
         'location',
     )
@@ -19,6 +19,7 @@ class ImageAdmin(admin.ModelAdmin):
     )
 
     list_display = (
+        'id',
         'created_at',
         'updated_at',
         'file',
@@ -29,7 +30,7 @@ class ImageAdmin(admin.ModelAdmin):
 
 @admin.register(models.Like)
 class LikeAdmin(admin.ModelAdmin):
-    
+
     list_display = (
         'creator',
         'image'
@@ -37,7 +38,7 @@ class LikeAdmin(admin.ModelAdmin):
 
 @admin.register(models.Comment)
 class CommentAdmin(admin.ModelAdmin):
-    
+
     list_display = (
         'message',
         'creator',
