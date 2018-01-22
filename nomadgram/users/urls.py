@@ -9,6 +9,11 @@ urlpatterns = [
         name='explore_users'
     ),
     url(
+        regex=r'^search/$',
+        view=views.SearchUsers.as_view(),
+        name='search'
+    ),
+    url(
         regex=r'^(?P<user_id>[0-9]+)/follow/$',
         view=views.FollowUser.as_view(),
         name='follow_user'

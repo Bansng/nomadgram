@@ -121,7 +121,7 @@ class Comment(APIView):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
 
-class Search(APIView):
+class SearchImages(APIView):
 
     def get(self, request, format=None):
 
