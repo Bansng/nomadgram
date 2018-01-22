@@ -11,7 +11,7 @@ class ImageAdmin(admin.ModelAdmin):
 
     search_fields = (
         'location',
-        'caption'
+        'caption',
     )
 
     list_filter = (
@@ -20,12 +20,10 @@ class ImageAdmin(admin.ModelAdmin):
 
     list_display = (
         'id',
-        'created_at',
-        'updated_at',
         'file',
         'location',
         'caption',
-        'creator'
+        'creator',
     )
 
 @admin.register(models.Like)
