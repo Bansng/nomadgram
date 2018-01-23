@@ -1,12 +1,8 @@
-from django.core.urlresolvers import reverse
-from django.views.generic import DetailView, ListView, RedirectView, UpdateView
-from django.contrib.auth.mixins import LoginRequiredMixin
-from .models import User
-
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from . import models, serializers
+from nomadgram.notifications import views as notification_views
 
 
 class UserFollowing(APIView):
@@ -67,6 +63,13 @@ class FollowUser(APIView):
 
         user.save()
         user_to_follow.save()
+
+        ''' after follow user, create notification '''
+        notification_views.create_notifications(
+            from_user=user,
+            to_user=user_to_follow,
+            notifications_type='follow'
+        )
 
         return Response(status=status.HTTP_200_OK)
 
