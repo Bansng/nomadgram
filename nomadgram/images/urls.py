@@ -1,7 +1,6 @@
 from django.conf.urls import url
 from . import views
 
-
 urlpatterns = [
     url(
         regex=r'^$',
@@ -22,6 +21,11 @@ urlpatterns = [
         regex=r'^(?P<image_id>[0-9]+)/comments/$',
         view=views.CommentOnImage.as_view(),
         name='comment_image'
+    ),
+    url(
+        regex=r'^(?P<image_id>[0-9]+)/comments/(?P<comment_id>[0-9]+)$',
+        view=views.ModerateComment.as_view(),
+        name='moderate_comment'
     ),
     url(
         regex=r'^comments/(?P<comment_id>[0-9]+)$',
