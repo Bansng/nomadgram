@@ -9,4 +9,5 @@ class NotificationAdmin(admin.ModelAdmin):
         'from_user',
         'to_user',
         'notifications_type',
+        'image',
     )

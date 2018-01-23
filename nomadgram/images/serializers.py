@@ -3,6 +3,15 @@ from . import models
 from nomadgram.users import models as user_models
 
 
+class OnlyImageSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = models.Image
+        fields = (
+            'file',
+        )
+
+
 class SimpleImageSerializer(serializers.ModelSerializer):
 
     class Meta:
