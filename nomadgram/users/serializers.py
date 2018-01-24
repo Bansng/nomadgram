@@ -2,6 +2,7 @@ from rest_framework import serializers
 from . import models
 from nomadgram.images import serializers as image_serializers
 
+
 class UserProfileSerializer(serializers.ModelSerializer):
 
     images = image_serializers.SimpleImageSerializer(many=True)
@@ -18,6 +19,7 @@ class UserProfileSerializer(serializers.ModelSerializer):
             'following_count',
             'images',
         )
+
 
 class ListUserSerializer(serializers.ModelSerializer):
 

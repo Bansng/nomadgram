@@ -26,14 +26,16 @@ class ImageAdmin(admin.ModelAdmin):
         'creator',
     )
 
+
 @admin.register(models.Like)
 class LikeAdmin(admin.ModelAdmin):
 
     list_display = (
         'id',
         'creator',
-        'image'
+        'image',
     )
+
 
 @admin.register(models.Comment)
 class CommentAdmin(admin.ModelAdmin):
