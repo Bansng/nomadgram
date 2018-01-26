@@ -1,4 +1,4 @@
-# nomadgram
+# Banstagram
 
 #### Cloning Instagram with Python Django and React
 API documentation: http://localhost:8000/docs
