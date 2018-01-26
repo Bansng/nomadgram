@@ -23,7 +23,7 @@ urlpatterns = [
     url(r'^notifications/', include('nomadgram.notifications.urls', namespace='notifications')),
 
     # Your stuff: custom urls includes go here
-    url(r'^rest-swagger/', schema_view),
+    url(r'^docs/', schema_view),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:
