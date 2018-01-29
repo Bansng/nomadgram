@@ -13,6 +13,7 @@ django-taggit
 django-rest-swagger
 djangrestframework-jwt
 django-taggit-serializer
+django-rest-auth
 ```
 ## 2. frontend
 - react

@@ -10,8 +10,6 @@ from rest_framework_swagger.views import get_swagger_view
 schema_view = get_swagger_view(title='Instagram Cloning API')
 
 urlpatterns = [
-    url(r'^api-token-auth/', obtain_jwt_token),
-
     # Django Admin, use {% url 'admin:index' %}
     url(settings.ADMIN_URL, admin.site.urls),
 
@@ -23,6 +21,9 @@ urlpatterns = [
 
     # Your stuff: custom urls includes go here
     url(r'^docs/', schema_view),
+    #url(r'^api-token-auth/', obtain_jwt_token),
+    url(r'^rest-auth/', include('rest_auth.urls')),
+    url(r'^rest-auth/registration/', include('rest_auth.registration.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:
