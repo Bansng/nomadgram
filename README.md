@@ -4,13 +4,15 @@
 API documentation: http://localhost:8000/docs
 
 ## 1. backend
-- based on django, cookiecutter
+- django (cookiecutter)
 - postgreSQL
-- third-party app
+- third-party apps
 ```
 djangorestframework
 django-taggit
 django-rest-swagger
+djangrestframework-jwt
+django-taggit-serializer
 ```
 ## 2. frontend
 - react
