@@ -7,6 +7,8 @@ from django.views import defaults as default_views
 from rest_framework_jwt.views import obtain_jwt_token
 from rest_framework_swagger.views import get_swagger_view
 
+from nomadgram import views
+
 schema_view = get_swagger_view(title='Instagram Cloning API')
 
 urlpatterns = [
@@ -24,6 +26,7 @@ urlpatterns = [
     #url(r'^api-token-auth/', obtain_jwt_token),
     url(r'^rest-auth/', include('rest_auth.urls')),
     url(r'^rest-auth/registration/', include('rest_auth.registration.urls')),
+    url(r'^', views.ReactAppView.as_view()),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:
