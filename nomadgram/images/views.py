@@ -8,7 +8,7 @@ from nomadgram.notifications import views as notification_views
 from nomadgram.users import serializers as user_serializers
 
 
-class Feed(APIView):
+class Images(APIView):
 
     def get(self, request, format=None):
 

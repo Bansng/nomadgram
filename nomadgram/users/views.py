@@ -4,6 +4,9 @@ from rest_framework import status
 from . import models, serializers
 from nomadgram.notifications import views as notification_views
 
+from allauth.socialaccount.providers.facebook.views import FacebookOAuth2Adapter
+from rest_auth.registration.views import SocialLoginView
+
 from rest_framework.generics import GenericAPIView
 
 
@@ -61,10 +64,7 @@ class FollowUser(APIView):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
         user.following.add(user_to_follow)
-        user_to_follow.followers.add(user)
-
         user.save()
-        user_to_follow.save()
 
         ''' after follow user, create notification '''
         notification_views.create_notifications(
@@ -173,3 +173,7 @@ class ChangePassword(APIView):
                 return Response(status=status.HTTP_400_BAD_REQUEST)
         else:
             return Response(status=status.HTTP_401_UNAUTHORIZED)
+
+
+class FacebookLogin(SocialLoginView):
+    adapter_class = FacebookOAuth2Adapter
