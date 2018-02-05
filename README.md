@@ -17,3 +17,13 @@ django-rest-auth
 ```
 ## 2. frontend
 - react
+- third-party apps
+```
+node-sass
+sass-loader
+redux-thunk
+redux-logger
+react-router-dom
+react-router-redux
+history
+```
