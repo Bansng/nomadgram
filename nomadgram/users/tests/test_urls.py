@@ -4,7 +4,7 @@ from test_plus.test import TestCase
 
 
 class TestUserURLs(TestCase):
-    """Test URL patterns for users app."""
+    """Test URL patterns for users App."""
 
     def setUp(self):
         self.user = self.make_user()

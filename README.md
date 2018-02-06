@@ -28,4 +28,5 @@ react-router-redux
 history
 redux-devtools-extension
 redux-i18n
+reset-css
 ```

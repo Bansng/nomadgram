@@ -62,7 +62,7 @@ THIRD_PARTY_APPS = [
 
 # Apps specific for this project go here.
 LOCAL_APPS = [
-    # custom users app
+    # custom users App
     'nomadgram.users.apps.UsersConfig',
     # Your stuff: custom apps go here
     'nomadgram.images.apps.ImagesConfig',
@@ -271,7 +271,7 @@ ACCOUNT_ALLOW_REGISTRATION = env.bool('DJANGO_ACCOUNT_ALLOW_REGISTRATION', True)
 ACCOUNT_ADAPTER = 'nomadgram.users.adapters.AccountAdapter'
 SOCIALACCOUNT_ADAPTER = 'nomadgram.users.adapters.SocialAccountAdapter'
 
-# Custom user app defaults
+# Custom user App defaults
 # Select the correct user model
 AUTH_USER_MODEL = 'users.User'
 #LOGIN_REDIRECT_URL = 'users:redirect'
