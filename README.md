@@ -26,4 +26,5 @@ redux-logger
 react-router-dom
 react-router-redux
 history
+redux-devtools-extension
 ```
