@@ -184,6 +184,7 @@ module.exports = {
                         minimize: true,
                         modules: true,
                         sourceMap: shouldUseSourceMap,
+                        camelCase: 'dashes'
                       },
                     },
                     {
