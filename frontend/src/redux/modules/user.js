@@ -6,7 +6,7 @@
 
 // initial state
 const initialState = {
-  isLoggedIn: localStorage.getItem('jwt') || false
+  isLoggedIn: localStorage.getItem('jwt')? true : false
 };
 
 
