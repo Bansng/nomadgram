@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles.scss";
-import { LoginForm, SignupForm} from "../AuthForms";
+import LoginForm from "components/LoginForm";
+import SignupForm from "components/SignupForm";
 
 const Auth = (props, context) => {
   return (
@@ -40,6 +41,6 @@ const Auth = (props, context) => {
       </div>
     </main>
   );
-}
+};
 
 export default Auth;
