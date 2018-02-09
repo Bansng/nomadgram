@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68f2077b-0012-4d06-823f-d51da2ffb167" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/locales/es.po" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/components/LoginForm/container.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/components/LoginForm/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/components/LoginForm/presenter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/components/SignupForm/container.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/components/SignupForm/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/components/SignupForm/presenter.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" afterPath="$PROJECT_DIR$/frontend/package.json" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/AuthForms/index.js" afterPath="$PROJECT_DIR$/frontend/src/components/AuthForms/index.js" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Footer/index.js" afterPath="$PROJECT_DIR$/frontend/src/components/Footer/index.js" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/redux/translations.js" afterPath="$PROJECT_DIR$/frontend/src/redux/translations.js" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/LoginForm/container.js" afterPath="$PROJECT_DIR$/frontend/src/components/LoginForm/container.js" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/SignupForm/presenter.js" afterPath="$PROJECT_DIR$/frontend/src/components/SignupForm/presenter.js" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/translations.js" afterPath="$PROJECT_DIR$/frontend/src/translations.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -192,7 +184,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,80 +196,15 @@
               <item name="Banstagram" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Banstagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banstagram" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="locales" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Banstagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banstagram" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Banstagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banstagram" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Banstagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banstagram" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Banstagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banstagram" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Banstagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banstagram" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="AuthForms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Banstagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banstagram" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginForm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Banstagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banstagram" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="SignupForm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Banstagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Banstagram" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -591,8 +517,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25272068" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22818312" sideWeight="0.49295774" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2382104" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23390558" sideWeight="0.49295774" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -624,13 +550,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/yarn.lock" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -679,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-833">
           <caret line="197" column="12" lean-forward="false" selection-start-line="197" selection-start-column="12" selection-end-line="197" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="186" column="43" lean-forward="false" selection-start-line="186" selection-start-column="43" selection-end-line="186" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="169" column="18" lean-forward="true" selection-start-line="169" selection-start-column="18" selection-end-line="169" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,96 +650,23 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-423">
             <caret line="141" column="8" lean-forward="false" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
-            <folding>
-              <marker date="1517910039019" expanded="true" signature="13357:13377" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="14770:15046" ph="{&quot;version&quot;: &quot;0.2.0&quot;...}" />
-              <marker date="1517910039019" expanded="true" signature="14814:15044" ph="[...]" />
-              <marker date="1517910039019" expanded="true" signature="14815:15043" ph="{&quot;name&quot;: &quot;Chrome&quot;...}" />
-              <marker date="1517910039019" expanded="true" signature="14991:15039" ph="{&quot;webpack:///src/*&quot;: &quot;${webRoot}/*&quot;...}" />
-              <marker date="1517910039019" expanded="true" signature="20263:20294" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="20276:20292" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="20400:20465" ph="..." />
-              <marker date="1517910039019" expanded="true" signature="20544:20599" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="20557:20597" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="22461:22758" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="22485:22635" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="22540:22572" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="22594:22629" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="22649:22756" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="22670:22745" ph="&lt;div/&gt;" />
-              <marker date="1517910039019" expanded="true" signature="23806:23826" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="23862:23919" ph="..." />
-              <marker date="1517910039019" expanded="true" signature="24001:24106" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="24014:24104" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="25185:25251" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="25284:25571" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="31083:31133" ph="..." />
-              <marker date="1517910039019" expanded="true" signature="31240:31327" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="31537:31577" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="34409:34674" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="34413:34607" ph="//..." />
-              <marker date="1517910039019" expanded="true" signature="37109:37193" ph="..." />
-              <marker date="1517910039019" expanded="true" signature="37194:37298" ph="//..." />
-              <marker date="1517910039019" expanded="true" signature="43145:43292" ph="..." />
-              <marker date="1517910039019" expanded="true" signature="43232:43285" ph="..." />
-              <marker date="1517910039019" expanded="true" signature="43742:43768" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="55210:55323" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="55232:55312" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="55246:55308" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="55666:56266" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="55688:56255" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="55748:55812" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="55872:55998" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="55941:55979" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="56080:56127" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="56205:56251" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="57197:57609" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="57219:57598" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="57236:57594" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="57323:57558" ph="//..." />
-              <marker date="1517910039019" expanded="true" signature="58801:58930" ph="..." />
-              <marker date="1517910039019" expanded="true" signature="58810:58930" ph="..." />
-              <marker date="1517910039019" expanded="true" signature="60626:60722" ph="&lt;html/&gt;" />
-              <marker date="1517910039019" expanded="true" signature="60645:60722" ph="&lt;head/&gt;" />
-              <marker date="1517910039019" expanded="true" signature="60656:60722" ph="&lt;script/&gt;" />
-              <marker date="1517910039019" expanded="true" signature="64602:64669" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="65549:65627" ph="..." />
-              <marker date="1517910039019" expanded="true" signature="65666:65747" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="67003:67078" ph="..." />
-              <marker date="1517910039019" expanded="true" signature="67420:67498" ph="..." />
-              <marker date="1517910039019" expanded="true" signature="67537:67560" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="68471:68549" ph="..." />
-              <marker date="1517910039019" expanded="true" signature="68587:68777" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="70239:70289" ph="..." />
-              <marker date="1517910039019" expanded="true" signature="70762:70828" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="71182:71265" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="72556:72973" ph="{&quot;name&quot;: &quot;your-package&quot;...}" />
-              <marker date="1517910039019" expanded="true" signature="72594:72971" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="72624:72724" ph="[...]" />
-              <marker date="1517910039019" expanded="true" signature="72751:72879" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="72769:72873" ph="{&quot;branches&quot;: 90...}" />
-              <marker date="1517910039019" expanded="true" signature="75318:75436" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="92395:92459" ph="{...}" />
-              <marker date="1517910039019" expanded="true" signature="116264:116312" ph="..." />
-              <marker date="1517910039019" expanded="true" signature="116454:116529" ph="..." />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="144">
             <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -873,17 +716,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/AuthForms/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/AuthForms/styles.scss" />
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Auth/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
@@ -937,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,23 +780,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/AuthForms/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/AuthForms/index.js" />
     <entry file="file://$PROJECT_DIR$/frontend/locales/es.po">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -985,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,9 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="64" lean-forward="false" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,15 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/App/presenter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,6 +865,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/App/presenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/scripts/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

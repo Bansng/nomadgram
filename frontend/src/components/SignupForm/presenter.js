@@ -15,7 +15,7 @@ const SignupForm = props => {
         <input type="text" placeholder="Full Name" className={formStyles.textInput} />
         <input type="username" placeholder="Username" className={formStyles.textInput} />
         <input type="password" placeholder="Password" className={formStyles.textInput} />
-        <input type="submit" value="Log in" className={formStyles.button} />
+        <input type="submit" value="Sign up" className={formStyles.button} />
       </form>
       <p className={formStyles.terms}>
         By signing up, you agree to our <span>Terms & Privacy Policy</span>
