@@ -22,12 +22,16 @@ urlpatterns = [
     url(r'^notifications/', include('nomadgram.notifications.urls', namespace='notifications')),
 
     # Your stuff: custom urls includes go here
-    url(r'^docs/', schema_view),
     #url(r'^api-token-auth/', obtain_jwt_token),
     url(r'^rest-auth/', include('rest_auth.urls')),
     url(r'^rest-auth/registration/', include('rest_auth.registration.urls')),
-    url(r'^', views.ReactAppView.as_view()),
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+urlpatterns += [
+    url(r'^docs/', schema_view),
+    url(r'^', views.ReactAppView.as_view()),
+]
 
 if settings.DEBUG:
     # This allows the error pages to be debugged during development, just visit

@@ -39,6 +39,7 @@ class Container extends Component{
 
   _handleFacebookLogin = response => {
     const { facebookLogin } = this.props;
+    //console.log(response);
     facebookLogin(response.accessToken);
   }
 }
