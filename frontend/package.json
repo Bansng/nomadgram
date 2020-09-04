@@ -64,7 +64,7 @@
   },
   "devDependencies": {
     "history": "^4.7.2",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^5.0.0-alpha.9",
     "redux-devtools-extension": "^2.13.2",
